@@ -29,7 +29,7 @@ class SkeletonAngles():
             self.positions[name]['y'] = positions[self.names.index(name)].y
             self.positions[name]['z'] = positions[self.names.index(name)].z
 
-        #print(self.positions)
+        print(self.positions)
 
 
         #x_0
