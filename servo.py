@@ -20,7 +20,7 @@ import time
 #   Windows example
 #     usbport = 'COM3'
 #   Linux example
-usbport = '/dev/ttyACM1'
+usbport = '/dev/ttyACM0'
 #   MacOSX example
 #     usbport = '/dev/tty.usbserial-FTALLOK2'
 #usbport = '/dev/tty.usbserial-FTALLOK2'

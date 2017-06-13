@@ -107,7 +107,6 @@ class SkeletonAngles():
 
         self.skeleton_angles = [phi, theta, alpha_l, alpha_r, beta_l, beta_r]
 
-        #print(' beta_l=',beta_l*57, 'beta_r=', beta_r*57)
         pub_str = ''
         for s in self.skeleton_angles:
             pub_str += str(s) + ','
