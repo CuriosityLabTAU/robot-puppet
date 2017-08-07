@@ -18,6 +18,7 @@ class ServoControl:
 
     def callback(self, data):
         self.skeleton_angles = np.array([float(x) for x in data.data.split(',')])
+        print self.skeleton_angles
         servo.move(1, int(self.skeleton_angles[4] * (180 / np.pi)))
         servo.move(2, int(self.skeleton_angles[5] * (180 / np.pi)))
         servo.move(3, int(self.skeleton_angles[2] * (180 / np.pi)))
